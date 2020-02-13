@@ -21,7 +21,7 @@ def main():
         # Добавляем исходную точку на карту.
         point_param = "pt={ll}".format(**locals())
 
-        
+
         show_map(ll_spn, "map", add_params=point_param)
     else:
         print('No data')
